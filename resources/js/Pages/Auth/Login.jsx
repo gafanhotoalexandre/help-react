@@ -51,7 +51,7 @@ export default ({ status, canResetPassword }) => {
                 <div className="grid gap-6">
                     {/* Email */}
                     <div className="space-y-2">
-                        <Label forInput="email" value="Email" />
+                        <Label forInput="email" value="E-mail" />
 
                         <InputIconWrapper
                             icon={
@@ -64,7 +64,7 @@ export default ({ status, canResetPassword }) => {
                             <Input
                                 type="text"
                                 name="email"
-                                placeholder="Email"
+                                placeholder="Informe seu e-mail"
                                 value={data.email}
                                 className="block w-full"
                                 autoComplete="username"
@@ -77,7 +77,7 @@ export default ({ status, canResetPassword }) => {
 
                     {/* Password */}
                     <div className="space-y-2">
-                        <Label forInput="password" value="Password" />
+                        <Label forInput="password" value="Senha" />
                         <InputIconWrapper
                             icon={
                                 <LockClosedIcon
@@ -89,7 +89,7 @@ export default ({ status, canResetPassword }) => {
                             <Input
                                 type="password"
                                 name="password"
-                                placeholder="Password"
+                                placeholder="Informe sua senha"
                                 value={data.password}
                                 className="block w-full"
                                 autoComplete="current-password"
@@ -109,7 +109,7 @@ export default ({ status, canResetPassword }) => {
                             />
 
                             <span className="text-sm text-gray-600">
-                                Remember me
+                                Manter-me conectado
                             </span>
                         </label>
 
@@ -118,7 +118,7 @@ export default ({ status, canResetPassword }) => {
                                 href={route("password.request")}
                                 className="text-blue-500 ext-sm hover:underline"
                             >
-                                Forgot your password?
+                                Esqueceu sua senha?
                             </Link>
                         )}
                     </div>
@@ -129,17 +129,17 @@ export default ({ status, canResetPassword }) => {
                         processing={processing}
                     >
                         <LoginIcon aria-hidden="true" className="w-6 h-6" />
-                        <span>Log in</span>
+                        <span>Entrar</span>
                     </Button>
 
                     {/* Register link */}
                     <p className="text-sm text-gray-600 dark:text-gray-400">
-                        Don't have an account?{" "}
+                        Não possui uma conta?{" "}
                         <Link
                             href={route("register")}
                             className="text-blue-500 hover:underline"
                         >
-                            Register
+                            Cadastrar-se
                         </Link>
                     </p>
                 </div>

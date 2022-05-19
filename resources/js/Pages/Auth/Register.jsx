@@ -50,7 +50,7 @@ export default () => {
                 <div className="grid gap-6">
                     {/* Name */}
                     <div className="space-y-2">
-                        <Label forInput="name" value="Name" />
+                        <Label forInput="name" value="Nome" />
 
                         <InputIconWrapper
                             icon={
@@ -63,7 +63,7 @@ export default () => {
                             <Input
                                 type="text"
                                 name="name"
-                                placeholder="Name"
+                                placeholder="Informe seu nome"
                                 value={data.name}
                                 className="block w-full"
                                 autoComplete="name"
@@ -77,7 +77,7 @@ export default () => {
 
                     {/* Email */}
                     <div className="space-y-2">
-                        <Label forInput="email" value="Email" />
+                        <Label forInput="email" value="E-mail" />
 
                         <InputIconWrapper
                             icon={
@@ -90,7 +90,7 @@ export default () => {
                             <Input
                                 type="email"
                                 name="email"
-                                placeholder="Email"
+                                placeholder="Informe seu e-mail"
                                 value={data.email}
                                 className="block w-full mt-1"
                                 autoComplete="username"
@@ -103,7 +103,7 @@ export default () => {
 
                     {/* Password */}
                     <div className="space-y-2">
-                        <Label forInput="password" value="Password" />
+                        <Label forInput="password" value="Senha" />
 
                         <InputIconWrapper
                             icon={
@@ -116,7 +116,7 @@ export default () => {
                             <Input
                                 type="password"
                                 name="password"
-                                placeholder="Password"
+                                placeholder="Crie sua senha"
                                 value={data.password}
                                 className="block w-full mt-1"
                                 autoComplete="new-password"
@@ -131,7 +131,7 @@ export default () => {
                     <div className="space-y-2">
                         <Label
                             forInput="password_confirmation"
-                            value="Confirm Password"
+                            value="Confirmação da Senha"
                         />
 
                         <InputIconWrapper
@@ -145,7 +145,7 @@ export default () => {
                             <Input
                                 type="password"
                                 name="password_confirmation"
-                                placeholder="Confirm Password"
+                                placeholder="Confirme sua senha"
                                 value={data.password_confirmation}
                                 className="block w-full mt-1"
                                 handleChange={onHandleChange}
@@ -161,17 +161,17 @@ export default () => {
                         processing={processing}
                     >
                         <UserAddIcon aria-hidden="true" className="w-6 h-6" />
-                        <span>Register</span>
+                        <span>Cadastrar</span>
                     </Button>
 
                     {/* Login link */}
                     <p className="text-sm text-gray-600 dark:text-gray-400">
-                        Already have an account?{" "}
+                        Já possui uma conta?{" "}
                         <Link
                             href={route("login")}
                             className="text-blue-500 hover:underline"
                         >
-                            Login
+                            Fazer login
                         </Link>
                     </p>
                 </div>

@@ -4986,26 +4986,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (function () {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("footer", {
     className: "flex-shrink-0 px-6 py-4",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
       className: "flex items-center justify-center gap-1 text-sm text-gray-600",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-        children: "Made with"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_heroicons_react_solid__WEBPACK_IMPORTED_MODULE_1__["default"], {
           "aria-hidden": "true",
           className: "w-6 h-6 text-red-500"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
           className: "sr-only",
-          children: "Love"
+          children: "Lion Solutions"
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-        children: "by"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-        href: "https://github.com/Kamona-WD",
-        target: "_blank",
-        className: "text-blue-600 hover:underline",
-        children: "Ahmed Kamel"
-      })]
+      })
     })
   });
 });
@@ -6063,7 +6054,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "space-y-2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_5__["default"], {
             forInput: "email",
-            value: "Email"
+            value: "E-mail"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_Components_InputIconWrapper__WEBPACK_IMPORTED_MODULE_4__["default"], {
             icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_10__["default"], {
               "aria-hidden": "true",
@@ -6072,7 +6063,7 @@ __webpack_require__.r(__webpack_exports__);
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_6__["default"], {
               type: "text",
               name: "email",
-              placeholder: "Email",
+              placeholder: "Informe seu e-mail",
               value: data.email,
               className: "block w-full",
               autoComplete: "username",
@@ -6085,7 +6076,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "space-y-2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_5__["default"], {
             forInput: "password",
-            value: "Password"
+            value: "Senha"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_Components_InputIconWrapper__WEBPACK_IMPORTED_MODULE_4__["default"], {
             icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_11__["default"], {
               "aria-hidden": "true",
@@ -6094,7 +6085,7 @@ __webpack_require__.r(__webpack_exports__);
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_6__["default"], {
               type: "password",
               name: "password",
-              placeholder: "Password",
+              placeholder: "Informe sua senha",
               value: data.password,
               className: "block w-full",
               autoComplete: "current-password",
@@ -6112,12 +6103,12 @@ __webpack_require__.r(__webpack_exports__);
               handleChange: onHandleChange
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("span", {
               className: "text-sm text-gray-600",
-              children: "Remember me"
+              children: "Manter-me conectado"
             })]
           }), canResetPassword && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
             href: route("password.request"),
             className: "text-blue-500 ext-sm hover:underline",
-            children: "Forgot your password?"
+            children: "Esqueceu sua senha?"
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)(_Components_Button__WEBPACK_IMPORTED_MODULE_7__["default"], {
           className: "justify-center w-full gap-2",
@@ -6126,14 +6117,14 @@ __webpack_require__.r(__webpack_exports__);
             "aria-hidden": "true",
             className: "w-6 h-6"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("span", {
-            children: "Log in"
+            children: "Entrar"
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("p", {
           className: "text-sm text-gray-600 dark:text-gray-400",
-          children: ["Don't have an account?", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+          children: ["N\xE3o possui uma conta?", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
             href: route("register"),
             className: "text-blue-500 hover:underline",
-            children: "Register"
+            children: "Cadastrar-se"
           })]
         })]
       })
@@ -6219,7 +6210,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "space-y-2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_5__["default"], {
             forInput: "name",
-            value: "Name"
+            value: "Nome"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_InputIconWrapper__WEBPACK_IMPORTED_MODULE_4__["default"], {
             icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_9__["default"], {
               "aria-hidden": "true",
@@ -6228,7 +6219,7 @@ __webpack_require__.r(__webpack_exports__);
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_6__["default"], {
               type: "text",
               name: "name",
-              placeholder: "Name",
+              placeholder: "Informe seu nome",
               value: data.name,
               className: "block w-full",
               autoComplete: "name",
@@ -6242,7 +6233,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "space-y-2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_5__["default"], {
             forInput: "email",
-            value: "Email"
+            value: "E-mail"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_InputIconWrapper__WEBPACK_IMPORTED_MODULE_4__["default"], {
             icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_10__["default"], {
               "aria-hidden": "true",
@@ -6251,7 +6242,7 @@ __webpack_require__.r(__webpack_exports__);
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_6__["default"], {
               type: "email",
               name: "email",
-              placeholder: "Email",
+              placeholder: "Informe seu e-mail",
               value: data.email,
               className: "block w-full mt-1",
               autoComplete: "username",
@@ -6264,7 +6255,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "space-y-2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_5__["default"], {
             forInput: "password",
-            value: "Password"
+            value: "Senha"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_InputIconWrapper__WEBPACK_IMPORTED_MODULE_4__["default"], {
             icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_11__["default"], {
               "aria-hidden": "true",
@@ -6273,7 +6264,7 @@ __webpack_require__.r(__webpack_exports__);
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_6__["default"], {
               type: "password",
               name: "password",
-              placeholder: "Password",
+              placeholder: "Crie sua senha",
               value: data.password,
               className: "block w-full mt-1",
               autoComplete: "new-password",
@@ -6286,7 +6277,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "space-y-2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_5__["default"], {
             forInput: "password_confirmation",
-            value: "Confirm Password"
+            value: "Confirma\xE7\xE3o da Senha"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_InputIconWrapper__WEBPACK_IMPORTED_MODULE_4__["default"], {
             icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_11__["default"], {
               "aria-hidden": "true",
@@ -6295,7 +6286,7 @@ __webpack_require__.r(__webpack_exports__);
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_6__["default"], {
               type: "password",
               name: "password_confirmation",
-              placeholder: "Confirm Password",
+              placeholder: "Confirme sua senha",
               value: data.password_confirmation,
               className: "block w-full mt-1",
               handleChange: onHandleChange,
@@ -6310,14 +6301,14 @@ __webpack_require__.r(__webpack_exports__);
             "aria-hidden": "true",
             className: "w-6 h-6"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("span", {
-            children: "Register"
+            children: "Cadastrar"
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("p", {
           className: "text-sm text-gray-600 dark:text-gray-400",
-          children: ["Already have an account?", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+          children: ["J\xE1 possui uma conta?", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
             href: route("login"),
             className: "text-blue-500 hover:underline",
-            children: "Login"
+            children: "Fazer login"
           })]
         })]
       })
