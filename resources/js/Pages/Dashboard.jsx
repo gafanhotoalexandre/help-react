@@ -28,7 +28,7 @@ export default (props) => {
             }
         >
             <div className="p-6 overflow-hidden bg-white rounded-md shadow-md dark:bg-dark-eval-1">
-                You're logged in!
+                Você está logado!
             </div>
         </Authenticated>
     );

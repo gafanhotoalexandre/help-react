@@ -41,7 +41,7 @@ export default ({ status }) => {
             <form onSubmit={submit}>
                 <div className="grid gap-6">
                     <div className="space-y-2">
-                        <Label htmlFor="email" value="Email" />
+                        <Label htmlFor="email" value="E-mail" />
 
                         <InputIconWrapper
                             icon={
@@ -54,7 +54,7 @@ export default ({ status }) => {
                             <Input
                                 type="text"
                                 name="email"
-                                placeholder="Email"
+                                placeholder="Digite seu e-mail"
                                 value={data.email}
                                 className="block w-full mt-1"
                                 isFocused={true}
@@ -72,7 +72,7 @@ export default ({ status }) => {
                             aria-hidden="true"
                             className="w-6 h-6"
                         />
-                        <span>Email Password Reset Link</span>
+                        <span>Link de Recuperação de Senha por E-mail</span>
                     </Button>
                 </div>
             </form>

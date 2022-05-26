@@ -13,11 +13,11 @@ export default (props) => {
                     ) : (
                         <>
                             <Link href={route('login')} className="text-sm text-gray-700 underline">
-                                Log in
+                                Entrar
                             </Link>
 
                             <Link href={route('register')} className="ml-4 text-sm text-gray-700 underline">
-                                Register
+                                Cadastre-se
                             </Link>
                         </>
                     )}
@@ -58,7 +58,7 @@ export default (props) => {
                                             href="https://laravel.com/docs"
                                             className="underline text-gray-900 dark:text-white"
                                         >
-                                            Documentation
+                                            Documentação
                                         </a>
                                     </div>
                                 </div>

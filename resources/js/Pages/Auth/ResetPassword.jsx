@@ -39,7 +39,7 @@ export default ({ token, email }) => {
             <form onSubmit={submit}>
                 <div className="grid gap-6">
                     <div className="space-y-2">
-                        <Label forInput="email" value="Email" />
+                        <Label forInput="email" value="E-mail" />
 
                         <InputIconWrapper
                             icon={
@@ -52,7 +52,7 @@ export default ({ token, email }) => {
                             <Input
                                 type="email"
                                 name="email"
-                                placeholder="Email"
+                                placeholder="Digite seu e-mail"
                                 value={data.email}
                                 className="block w-full mt-1"
                                 autoComplete="username"
@@ -63,7 +63,7 @@ export default ({ token, email }) => {
                     </div>
 
                     <div className="space-y-2">
-                        <Label forInput="password" value="Password" />
+                        <Label forInput="password" value="Senha" />
 
                         <InputIconWrapper
                             icon={
@@ -76,7 +76,7 @@ export default ({ token, email }) => {
                             <Input
                                 type="password"
                                 name="password"
-                                placeholder="Password"
+                                placeholder="Digite sua nova senha"
                                 value={data.password}
                                 className="block w-full mt-1"
                                 autoComplete="new-password"
@@ -90,7 +90,7 @@ export default ({ token, email }) => {
                     <div className="space-y-2">
                         <Label
                             forInput="password_confirmation"
-                            value="Confirm Password"
+                            value="Confirmação da Senha"
                         />
 
                         <InputIconWrapper
@@ -104,7 +104,7 @@ export default ({ token, email }) => {
                             <Input
                                 type="password"
                                 name="password_confirmation"
-                                placeholder="Confirm Password"
+                                placeholder="Digite sua senha novamente"
                                 value={data.password_confirmation}
                                 className="block w-full mt-1"
                                 autoComplete="new-password"
@@ -118,7 +118,7 @@ export default ({ token, email }) => {
                         className="justify-center w-full"
                         processing={processing}
                     >
-                        Reset Password
+                        Cadastrar nova senha
                     </Button>
                 </div>
             </form>

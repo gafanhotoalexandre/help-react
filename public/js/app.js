@@ -5938,7 +5938,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "space-y-2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_4__["default"], {
             htmlFor: "email",
-            value: "Email"
+            value: "E-mail"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_InputIconWrapper__WEBPACK_IMPORTED_MODULE_3__["default"], {
             icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_8__["default"], {
               "aria-hidden": "true",
@@ -5947,7 +5947,7 @@ __webpack_require__.r(__webpack_exports__);
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_5__["default"], {
               type: "text",
               name: "email",
-              placeholder: "Email",
+              placeholder: "Digite seu e-mail",
               value: data.email,
               className: "block w-full mt-1",
               isFocused: true,
@@ -5962,7 +5962,7 @@ __webpack_require__.r(__webpack_exports__);
             "aria-hidden": "true",
             className: "w-6 h-6"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
-            children: "Email Password Reset Link"
+            children: "Link de Recupera\xE7\xE3o de Senha por E-mail"
           })]
         })]
       })
@@ -6395,7 +6395,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "space-y-2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_5__["default"], {
             forInput: "email",
-            value: "Email"
+            value: "E-mail"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_InputIconWrapper__WEBPACK_IMPORTED_MODULE_4__["default"], {
             icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_9__["default"], {
               "aria-hidden": "true",
@@ -6404,7 +6404,7 @@ __webpack_require__.r(__webpack_exports__);
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_6__["default"], {
               type: "email",
               name: "email",
-              placeholder: "Email",
+              placeholder: "Digite seu e-mail",
               value: data.email,
               className: "block w-full mt-1",
               autoComplete: "username",
@@ -6416,7 +6416,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "space-y-2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_5__["default"], {
             forInput: "password",
-            value: "Password"
+            value: "Senha"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_InputIconWrapper__WEBPACK_IMPORTED_MODULE_4__["default"], {
             icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_10__["default"], {
               "aria-hidden": "true",
@@ -6425,7 +6425,7 @@ __webpack_require__.r(__webpack_exports__);
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_6__["default"], {
               type: "password",
               name: "password",
-              placeholder: "Password",
+              placeholder: "Digite sua nova senha",
               value: data.password,
               className: "block w-full mt-1",
               autoComplete: "new-password",
@@ -6438,7 +6438,7 @@ __webpack_require__.r(__webpack_exports__);
           className: "space-y-2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_5__["default"], {
             forInput: "password_confirmation",
-            value: "Confirm Password"
+            value: "Confirma\xE7\xE3o da Senha"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_InputIconWrapper__WEBPACK_IMPORTED_MODULE_4__["default"], {
             icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_10__["default"], {
               "aria-hidden": "true",
@@ -6447,7 +6447,7 @@ __webpack_require__.r(__webpack_exports__);
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_6__["default"], {
               type: "password",
               name: "password_confirmation",
-              placeholder: "Confirm Password",
+              placeholder: "Digite sua senha novamente",
               value: data.password_confirmation,
               className: "block w-full mt-1",
               autoComplete: "new-password",
@@ -6458,7 +6458,7 @@ __webpack_require__.r(__webpack_exports__);
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Button__WEBPACK_IMPORTED_MODULE_7__["default"], {
           className: "justify-center w-full",
           processing: processing,
-          children: "Reset Password"
+          children: "Cadastrar nova senha"
         })]
       })
     })]
@@ -6675,7 +6675,7 @@ __webpack_require__.r(__webpack_exports__);
     }),
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "p-6 overflow-hidden bg-white rounded-md shadow-md dark:bg-dark-eval-1",
-      children: "You're logged in!"
+      children: "Voc\xEA est\xE1 logado!"
     })
   });
 });
@@ -6715,11 +6715,11 @@ __webpack_require__.r(__webpack_exports__);
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
             href: route('login'),
             className: "text-sm text-gray-700 underline",
-            children: "Log in"
+            children: "Entrar"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
             href: route('register'),
             className: "ml-4 text-sm text-gray-700 underline",
-            children: "Register"
+            children: "Cadastre-se"
           })]
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -6763,7 +6763,7 @@ __webpack_require__.r(__webpack_exports__);
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                     href: "https://laravel.com/docs",
                     className: "underline text-gray-900 dark:text-white",
-                    children: "Documentation"
+                    children: "Documenta\xE7\xE3o"
                   })
                 })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
